@@ -2,3 +2,6 @@ CNN KAVRAMLAR
 
 cross correlation ( çapraz korelasyon) --> Konvolüsyon işleminin benzeridir
 Padding ( Ekleme ) --> giriş görüntüsüne konvolüsyon işlemi yapıldıktan sonra veri kaybetmemek için padding işlemi yapılır
+
+Konvolüsyon işleminden sonra çıkışGörüntüsü=(N-F)/stride + 1  --> N-giriş boyutu , F-filtre boyutu, stride-kaydırma adımı, +1-bias
+padding bulmak için gereken formül ( ne kadar eklememiz lazım)  p=(F-1)/2  birleştirelim formülleri (N-F+2P)/stride + 1 ile çıkış bulunur.
