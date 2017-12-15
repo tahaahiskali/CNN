@@ -1,3 +1,4 @@
 CNN KAVRAMLAR
 
 cross correlation ( çapraz korelasyon) --> Konvolüsyon işleminin benzeridir
+Padding ( Ekleme ) --> giriş görüntüsüne konvolüsyon işlemi yapıldıktan sonra veri kaybetmemek için padding işlemi yapılır
